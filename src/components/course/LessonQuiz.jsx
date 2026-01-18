@@ -11,7 +11,7 @@ import { useApp } from '../../context/AppContext';
 import { QUIZ_QUESTIONS } from '../../data/mockData';
 
 const LessonQuiz = ({ lessonId, courseId, onComplete }) => {
-    const { saveQuizResponse, calculateConfidence } = useApp();
+    const { saveQuizResponse, submitQuizAnswer, calculateConfidence } = useApp();
     const [selectedOption, setSelectedOption] = useState(null);
     const [isSubmitted, setIsSubmitted] = useState(false);
 

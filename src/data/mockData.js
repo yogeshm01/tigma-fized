@@ -274,7 +274,6 @@ export const LESSON_CONTENT = {
     'python-basics': {
         title: 'Introduction to Variables',
         duration: '5 min',
-        videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4',
         content: `
       Welcome to your first Python lesson! 🎉
       
@@ -302,7 +301,6 @@ export const LESSON_CONTENT = {
     'web-dev': {
         title: 'Your First HTML Page',
         duration: '5 min',
-        videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4',
         content: `
       Welcome to Web Development! 🌐
       

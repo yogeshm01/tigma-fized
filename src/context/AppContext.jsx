@@ -403,6 +403,7 @@ export const AppProvider = ({ children }) => {
         quizResponses,
         confidenceLevel,
         saveQuizResponse,
+        submitQuizAnswer,
         calculateConfidence,
 
         // Badges
